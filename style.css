@@ -1,0 +1,631 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+ .parent{
+        overflow-x: hidden;
+    }
+
+ 
+.first{
+    background-color: rgb(62, 58, 58);
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second{
+    margin-top: 9px;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 10px;
+}
+li{
+    margin-left: 15px;
+}
+
+input{
+    height: 40px;
+    width: 500px;
+    background-color: rgb(214, 214, 214);
+    border: none;
+    border-radius: 18px;
+}
+
+input::placeholder{
+    padding-left: 9px;
+    
+    
+}
+
+.second-first{
+    margin-top: 8px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.search{
+    display: none;
+}
+
+.third{
+    background-color: #f2f0f1;
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.third-first{
+    width:50vh;
+    text-align: center;
+}
+
+.fourth{
+    
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    
+    
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.fifth{
+    width: 100vw;
+    margin-top: 13px;
+}
+
+.fifth-first{
+     margin-top:30px;
+     display: flex;
+     justify-content: space-around;
+}
+
+.sixth{
+     margin-top: 30px;
+}
+
+.sixth-first{
+     margin-top:30px;
+     display: flex;
+     justify-content: space-around;
+}
+
+hr {
+ border: none; /* Removes the default 3D border effect */
+  border-top: 1px solid #ccc; /* Adds a solid, thin, light gray line at the top */
+  margin: 20px 0px; /* Adds vertical spacing above and below the line */
+  width: 90vw;
+  margin: auto;
+  
+}
+
+.seventh{
+    width: 100vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.seventh-first{
+    width: 85vw;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 100px 300px 300px;
+   background-color:#f0f0f0;
+   
+   gap: 13px;
+   border-radius: 12px;
+}
+
+.one1{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 340px;
+}
+.one{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("./assets/images/one.png");
+    background-size: cover;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 19px;
+    padding-top: 5px;
+    padding-left: 5px;
+   
+}
+
+.two{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-image: url("./assets/images/two.png");
+    background-size: cover;
+    margin-right: 20px;
+   margin-top: 19px;
+     border-radius: 12px;
+     padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+.three{
+    grid-column: 1/3;
+    grid-row: 3/4;
+        background-image: url("./assets/images/three.png");
+    background-size: cover;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 19px;
+    padding-top: 5px;
+    padding-left: 5px;
+      margin-bottom: 20px;
+   
+}
+
+
+.four{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image: url("./assets/images/four.png");
+    background-size: cover;
+    margin-right: 20px;
+   margin-top: 19px;
+     border-radius: 12px;
+     padding-top: 5px;
+    padding-left: 5px;
+      margin-bottom: 20px;
+}
+
+
+.eight{
+    margin-top: 15px;
+    width: 100vw;
+}
+
+
+.eight-first{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.boxes{
+    width: 300px;
+    border: 0.5px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.nineth{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.nineth-first{
+    width: 80vw;
+    height: 200px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input{
+    border-radius: 12px;
+    width: 320px;
+    background-color: white;
+    border: none;
+    margin-bottom: 14px;
+}
+
+
+.ninth-second{
+    padding-top: 100px;
+    background-color:  #f2f0f1;
+    width: 100vw;
+    display: flex;
+    
+   
+    justify-content: space-around;
+}
+
+
+.ninth-second-one{
+    width: 200px;
+}
+
+.tenth{
+    background-color: #f2f0f1 ;
+    width: 100vw;
+ 
+}
+
+.tenth-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+@media(max-width:480px){
+    body{
+        overflow-x: hidden;
+    }
+   
+    .first{
+    background-color: rgb(62, 58, 58);
+    color: white;
+    height: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow-x: hidden;
+   
+}
+
+.first>p{
+    font-size: 2px;
+}
+
+.first>a{
+    font-size: 2px;
+}
+
+.second{
+    margin-top: 9px;
+    background-color: white;
+    height: 20px;
+    overflow-x: hidden;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.second-first{
+    height: 20px;
+    display: flex;
+    align-items: start;
+    
+}
+
+
+li{
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+.logo{
+    width: 50px;
+    height: 15px;
+}
+
+.second-first>input{
+   display: none;
+}
+.second-first>.man{
+   display: none;
+}
+
+.second-first>.search{
+   display: block;
+}
+
+.search{
+display: block;
+color: black;
+}
+
+.third{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.third-first>h1{
+    font-size: 14px;
+}
+
+.third-first>p{
+    font-size: 7px;
+}
+
+.third-first>button{
+    width: 260px;
+    font-size: 9px;
+}
+
+.human{
+   
+    width: 190px;
+    height: 300px;
+
+}
+
+.vector{
+    display: none;
+}
+
+.fourth{
+    overflow: hidden;
+}
+
+.fourth>h3{
+   font-size: 12px
+}
+
+.fifth{
+   width: 100vw;
+}
+
+.fifth-first{
+     width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+    
+    flex-wrap: wrap;
+
+}
+
+.fifth-first>div{
+   
+    
+    margin-right: 4px;
+    margin-bottom: 40px;
+  
+}
+
+.fifth-first>div>img{
+    width:140px ;
+    
+}
+
+.fifth-first>div>p{
+   font-size: 9px;
+    
+}
+
+.sixth{
+    width: 100vw;
+
+}
+
+.sixth-first{
+     width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+    
+    flex-wrap: wrap;
+
+}
+
+.sixth-first>div{
+   
+    
+    margin-right: 4px;
+    margin-bottom: 40px;
+  
+}
+
+
+.sixth-first>div>img{
+    width:140px ;
+    
+    
+}
+
+.sixth-first>div>p{
+   font-size: 9px;
+    
+}
+
+.seventh{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.seventh-first{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:100px 200px 200px 200px 200px;
+    gap: 10px;
+    
+
+}
+
+.one1{
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.one{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-right: 14px;
+
+
+}
+
+.two{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 14px;
+    
+
+}
+
+.three{
+    grid-column: 1/2;
+    grid-row: 4/5;
+     margin-right: 14px;
+  
+
+}
+
+.four{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin-bottom: 20px;
+    margin-left: 14px;
+}
+
+
+.eight{
+    margin-top: 15px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.eight>h1{
+    font-size: 16px;
+    margin-left: 23px;
+}
+
+.eight-first{
+    width: 100vw;
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.boxes{
+    margin-bottom: 8px;
+    width: 300px;
+}
+
+
+
+.nineth{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.nineth-first{
+    width: 90vw;
+    height: 310px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+
+.h1>h1{
+    font-size: 17px;
+}
+
+.box>input{
+
+    border-radius: 12px;
+    width: 320px;
+    background-color: white;
+    border: none;
+    margin-bottom: 8px;
+
+}
+
+
+
+.ninth-second{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+}
+.ninth-second-one{
+  margin-right: 100px;
+  margin-left: 40px;
+}
+
+.nineth-second-three{
+    margin-right: 140px;
+    margin-left: 40px;
+}
+
+.tenth{
+   
+    width: 100vw;
+ 
+}
+
+.tenth-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+}
